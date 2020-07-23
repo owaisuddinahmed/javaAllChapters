@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>QUESTION#1</h1>
+    <form action="" onsubmit="submitItems()">
+        <p>
+            Name:
+            <input placeholder="First Name" type="text" name="" id="f_name" required="required">
+            <input placeholder="Last Name" type="text" name="" id="l_name" required="required">
+        </p>
+        <p>
+            Email:
+            <input onblur="" type="email" name="" placeholder="example@abc.com" id="mail" required="required">
+        </p>
+        <p>
+            Phone:
+            <input type="text" placeholder="03xx-xxxxxxx" name="" id="phone" required="required">
+        </p>
+        <p>
+            Gender:
+            Male <input type="radio" name="gender" value="male" id="gender">
+            Female <input type="radio" name="gender" id="gender" value="female">
+        </p>
+        <p> 
+            <input type="submit" value="submit">
+        </p>
+    </form>
+</div>
+
+<h1>QUESTION#2</h1>
+<h3>Pakistan</h3>
+<p id="para">A republic in S Asia, on the Arabian Sea: the Union of Pakistan, formed in 1947, 
+    comprised West and East Pakistan; East Pakistan gained independence as Bangladesh in 1971
+    and West Pakistan became Pakistan; a member of the Commonwealth from 1947,
+    <a href="javascript:void(0);" onclick="expandPara()"><span>read more</span></a>
+</p>
+
+<h1>QUESTION#3</h1>
+        <div class="container">
+            <div class="tab tab-1">
+                <table id="table" border="1">
+                    <tr>
+                        <th>S.no</th>
+                        <th>Name</th>
+                        <th>Course</th>
+                    </tr>
+                    <tr>
+                        <td>Ghulam</td>
+                        <td>Murtaza</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Ovais</td>
+                        <td>Ahmed</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Muhammad</td>
+                        <td>Yahya</td>
+                        <td>22</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tab tab-2">
+                First Name :<input type="text" name="fname" id="fname">
+                Last Name :<input type="text" name="lname" id="lname">
+                Age :<input type="number" name="age" id="age">
+                
+                <button onclick="addHtmlTableRow();">Add</button>
+                <button onclick="editHtmlTbleSelectedRow();">Edit</button>
+                <button onclick="removeSelectedRow();">Remove</button>
+            </div>
+        </div>
+
+
+
+</body>
+<script src="app.js"></script>
+</html>

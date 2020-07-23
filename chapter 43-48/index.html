@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <h1>ANSWER 1</h1>
+    <a href="#" onclick="alert('Thanks for clicking')">Click on me</a>
+    </div>
+
+    <h1>ANSWER 2</h1>
+    <div class="divrow">
+        <div><img  class="q2" src="https://images.priceoye.pk/samsung-galaxy-s10-lite-pakistan-priceoye-fmbkz.jpg" onclick="alert('Thanks for purchasing phone from us')" alt=""></div>
+        <div><img  class="q2" src="https://www.gizmochina.com/wp-content/uploads/2019/06/Galaxy-A60-featured-546x546.jpg"  onclick="alert('Thanks for purchasing phone from us')" alt=""></div>
+        <div><img  class="q2" src="https://i.gadgets360cdn.com/products/large/1555507135_635_samsung_galaxy_a60.jpg" onclick="alert('Thanks for purchasing phone from us')" alt=""></div>
+        <div><img  class="q2" src="https://images.priceoye.pk/samsung-galaxy-s10-plus-pakistan-priceoye-odgk0.jpg" onclick="alert('Thanks for purchasing phone from us')" alt=""></div>
+        <div><img  class="q2" src="https://i.gadgets360cdn.com/products/large/1519585124_635_samsung_galaxy_s9_blue.jpg" onclick="alert('Thanks for purchasing phone from us')" alt=""></div>
+    </div>
+
+    <h1>ANSWER 3</h1>
+    <table>
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th></th>
+        </tr>
+        <tr id="r2">
+            <td>0</td>
+            <td>Murtaza</td>
+            <td>Web</td>
+            <td><button onclick="deleteRow('r2')">DELETE</button></td>
+        </tr>
+        <tr id="r3">
+            <td>1</td>
+            <td>Ovais</td>
+            <td>Web</td>
+            <td><button onclick="deleteRow('r3')">DELETE</button></td>
+        </tr>
+        <tr id="r4">
+            <td>2</td>
+            <td>Danyal</td>
+            <td>Android</td>
+            <td><button onclick="deleteRow('r4')">DELETE</button></td>
+        </tr>
+        <tr id="r5">
+            <td>3</td>
+            <td>Tulaib</td>
+            <td>C++</td>
+            <td><button onclick="deleteRow('r5')">DELETE</button></td>
+        </tr>
+        <tr id="r6">
+            <td>4</td>
+            <td>Mehmaam</td>
+            <td>C++</td>
+            <td><button onclick="deleteRow('r6')">DELETE</button></td>
+        </tr>
+        <tr id="r7">
+            <td>5</td>
+            <td>Shera</td>
+            <td>Java</td>
+            <td><button onclick="deleteRow('r7')">DELETE</button></td>
+        </tr>
+        <tr id="r8">
+            <td>6</td>
+            <td>Shahzaib</td>
+            <td>Web</td>
+            <td><button onclick="deleteRow('r8')">DELETE</button></td>
+        </tr>
+        <tr id="r9">
+            <td>7</td>
+            <td>Fahim</td>
+            <td>Android</td>
+            <td><button onclick="deleteRow('r9')">DELETE</button></td>
+        </tr>
+        <tr id="r10">
+            <td>8</td>
+            <td>Anas</td>
+            <td>C++</td>
+            <td><button onclick="deleteRow('r10')">DELETE</button></td>
+        </tr>
+        <tr id="r11">
+            <td>9</td>
+            <td>Kashan</td>
+            <td>Android</td>
+            <td><button onclick="deleteRow('r11')">DELETE</button></td>
+        </tr>
+    </table>
+
+    <h1>ANSWER 4</h1>
+    <img class="img" id="phone" onmouseout="setPic()" onmouseover="changePic()" src="https://images.priceoye.pk/samsung-galaxy-s10-lite-pakistan-priceoye-fmbkz.jpg" alt="">
+
+    <h1>ANSWER 5</h1>
+    <div>
+        <h3>Counter</h3>
+        <h1><button class="btn" onclick="decreaseCount()">-</button>
+         <a id="count">0</a>
+        <button class="btn" onclick="increaseCount()">+</button></h1>
+    </div>
+
+</body>
+<script src="app.js"></script>
+</html>

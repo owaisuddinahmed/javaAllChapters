@@ -1,0 +1,20 @@
+.q2{
+    height: 100px;
+    width: 100px;
+}
+.divrow{
+    display: flex;
+}
+.hidden{
+    display: none;
+}
+.img{
+    height: 300px;
+    width: 300px;
+}
+.btn{
+    margin: 5px;
+    font-size: xx-large;
+    height: 50px;
+    width: 50px;
+}
